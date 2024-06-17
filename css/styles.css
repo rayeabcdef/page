@@ -1,0 +1,57 @@
+/* 全局样式 */  
+html, body {  
+    margin: 0;  
+    padding: 0;  
+    height: 100%;  
+    font-family: 'Roboto', sans-serif;  
+    line-height: 1.6;  
+    background-color: #00275D; /* NBA蓝色背景 */  
+}  
+  
+/* 容器样式 */  
+.container {  
+    max-width: 1200px;  
+    margin: 0 auto;  
+    padding: 40px;  
+    background-color: #ffffff; /* 白色背景 */  
+    color: #333333; /* 深灰色文字 */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 容器阴影 */  
+}  
+  
+/* 标题样式 */  
+h1, h2 {  
+    color: #002776; /* NBA蓝色 */  
+}  
+  
+/* 自我介绍和雷达图容器样式 */  
+#self-introduction, #radar-chart-container {  
+    background-color: #f5f5f5; /* 浅灰色背景 */  
+    padding: 20px;  
+    margin-bottom: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 盒子阴影 */  
+}  
+  
+/* 列表样式 */  
+ul {  
+    list-style-type: none;  
+    padding-left: 0;  
+}  
+  
+/* 文本颜色和悬停效果 */  
+p, li {  
+    color: #333333; /* 深灰色文字 */  
+}  
+  
+p:hover, li:hover {  
+    color: #c8102e; /* NBA红色 */  
+}  
+  
+/* 发光效果 */  
+.black-glow {  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文本阴影 */  
+}  
+  
+.red-glow {  
+    text-shadow: 0 0 10px #c8102e, 0 0 20px #c8102e; /* 发红色光 */  
+}
